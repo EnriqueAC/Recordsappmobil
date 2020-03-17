@@ -9,6 +9,8 @@ mobileApp.tables.add('Record_Procedimiento');
 mobileApp.tables.add('Record_RedimientosMateriales');
 mobileApp.tables.add('Record_Rendimientos'); 
 mobileApp.tables.add('Record_resultado'); 
+mobileApp.tables.add('Record_ResultadoImagenes'); 
+
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
