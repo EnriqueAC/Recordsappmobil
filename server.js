@@ -6,7 +6,8 @@ mobileApp.tables.add('Cat_Usuarios');
 mobileApp.tables.add('Record_Clasificacion');
 mobileApp.tables.add('Record_Firmas');
 mobileApp.tables.add('Record_Procedimiento'); 
-mobileApp.tables.add('Record_RedimientosMateriales'); 
+mobileApp.tables.add('Record_RedimientosMateriales');
+mobileApp.tables.add('Record_Rendimientos'); 
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
